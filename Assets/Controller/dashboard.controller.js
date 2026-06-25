@@ -1,0 +1,1 @@
+import { dash } from "../views/dashboard.html";
