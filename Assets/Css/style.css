@@ -1,5 +1,6 @@
 /*importaciones*/
 @import '../Css/reponse.css';
+@import url('../Css/login.css');
 /*---------------------------*/
 *{
     box-sizing: border-box;
