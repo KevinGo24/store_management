@@ -1,3 +1,6 @@
+/*importaciones*/
+@import '../Css/reponse.css';
+/*---------------------------*/
 *{
     box-sizing: border-box;
     margin: 0;
