@@ -8,6 +8,8 @@ buenas equipo, este es el proyecto integrador en lo cual vamos hacer de producti
 - CSS
 - VITE
 - POSTGRES SQL
+- bootstrap-icons
+- vite (simualdor de entorno)
 
 ## EJECUTAR PROYECTO
 
