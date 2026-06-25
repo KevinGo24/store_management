@@ -1,0 +1,5 @@
+// ignorame los siguientes archivos
+node_modules
+package-lock.json
+package.json
+vite.config.js
