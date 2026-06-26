@@ -10,6 +10,10 @@
     height: 100%;
     width: 400px;
     padding: 40px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .capa_2 {
@@ -21,6 +25,12 @@
     padding: 25px;
     border: solid 2px white;
     border-radius: 10px;
+}
+
+p {
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 /*------------------------*/
@@ -54,3 +64,47 @@ h1 {
 }
 
 /*------------------------*/
+/*clase de los button = btn*/
+
+.btn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-style: italic;
+    transition: .5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background: linear-gradient(200deg, #a69936, #c97434);
+    text-decoration: underline white;
+
+}
+
+/*----------------------------------------------------------*/
+h2 {
+    padding: 10px;
+    text-shadow: white 1px 0px 5px;
+}
+
+/*----------------------------------------------------------*/
+/*a = class register*/
+
+.register {
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.register:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background: linear-gradient(270deg, #a69936, #c97434);
+    text-decoration: underline white;
+}
