@@ -1,1 +1,0 @@
-import { register } from "../views/registro.html";
