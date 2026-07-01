@@ -1,29 +1,28 @@
-/*Capa contenedoras */
-.capa_1 {
+/*Capas contenedoras */
+
+form{
     justify-content: center;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    border: solid 4px white;
-    border-radius: 10px;
-    text-align: center;
-    height: 100%;
-    width: 400px;
-    padding: 40px;
-    margin-top: 100px;
+    display: flex;
+
+}
+.capa_1{
+    padding: 35px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    border: 3px solid white;    
+    border-radius: 15px;
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(8px);
+    text-align: center;
 }
 
-.capa_2 {
-    height: 100%;
-    width: 100%;
+.capa_2{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     padding: 25px;
-    border: solid 2px white;
+    border: 2px solid white;
     border-radius: 10px;
 }
 
@@ -32,7 +31,6 @@ p {
     letter-spacing: 2px;
     font-weight: bolder;
 }
-
 /*------------------------*/
 /*noombre de la plataforma*/
 h1 {
@@ -108,3 +106,5 @@ h2 {
     background: linear-gradient(270deg, #a69936, #c97434);
     text-decoration: underline white;
 }
+/*----------------------------------------------------------*/
+/*label class= campo*/

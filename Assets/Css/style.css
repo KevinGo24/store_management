@@ -1,6 +1,6 @@
 /*importaciones*/
-@import '../Css/reponse.css';
-@import url('../Css/login.css');
+@import "./Assets/Css/reponse.css";
+@import "./Assets/Css/login.css";
 /*---------------------------*/
 *{
     box-sizing: border-box;
@@ -22,6 +22,8 @@ body{
     gap: 10px;
     flex-direction: column;
 }
+
+
 
 /*cabezera*/
 
