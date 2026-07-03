@@ -3,7 +3,7 @@ export function views_homne() {
     
     <header>
         <div class="logo">
-            <h1>Gestor</h1><strong>Store</strong>
+            <img src="/Assets/picture/logo (1).png" alt="logo" class="logotipo">
         </div>
         <nav>
             <ul>
@@ -36,16 +36,22 @@ export function views_homne() {
     </header>
     <section class="section_info">
         <figure>
-            <img src="/Assets/picture/1.png" alt="Logo de Gestor Store" class="photo">
+            <img src="/Assets/picture/logo (1).png" alt="Logo de Gestor Store" class="photo">
         </figure>
 
         <div class="info">
             <h1>Gestor <strong>Store</strong></h1>
 
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Et, praesentium possimus, ullam excepturi, non sunt odit
-                nemo asperiores minima iusto labore.
+             "Gestiona tu inventario con inteligencia y lleva el control de tu negocio desde 
+             una sola plataforma.
+              Con Gestor Store podrás administrar productos, controlar existencias en tiempo real, 
+              registrar entradas y salidas, organizar categorías, consultar reportes detallados y 
+              mantener toda la información de tu inventario siempre actualizada. 
+              Nuestra plataforma está diseñada para ser rápida, intuitiva y segura, 
+              ayudándote a optimizar procesos, reducir pérdidas y tomar mejores decisiones 
+              para hacer crecer tu empresa con mayor eficiencia y confianza."
+
             </p>
         </div>
     </section>
