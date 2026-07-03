@@ -19,45 +19,50 @@ body{
     padding: 10px;
     font-style: italic;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-direction: column;
 }
 
-
-
-/*cabezera*/
-
-header{
-    height: 100%;
-    width: 100%;
-    border: solid 1px white;
-    padding: 10px;
+/* Logo */
+.logotipo{
+    width: 100%;      /* Ajusta el tamaño */
+    height: 150px;
     display: flex;
-    align-items: center;
-    border-radius: 10px;
 }
-nav{
+
+/* Header */
+header{
+    height: 100px;
+    width: 100%;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 10px;
+    background: transparent;
 }
-ul{
-    display: flex;
-    gap: 20px;
 
+/* Navegación */
+nav ul{
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
 }
+
 li{
     list-style: none;
-    color: white;
-    transition: .5s;
-    gap: 10px;
+    transition: .3s;
 }
+
+li:hover{
+    transform: scale(1.08);
+}
+
 a{
     text-decoration: none;
     color: white;
-}
-li:hover{
-    
-    transform: scale(1.1);
 }
 /*-------------------------------*/
 
