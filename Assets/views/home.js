@@ -16,7 +16,7 @@ export function views_homne() {
                 <li>
                     <a href="/login">
                         <i class="bi bi-person-circle"></i>
-                        Login
+                        Login  
                     </a>
                 </li>
                 <li>
