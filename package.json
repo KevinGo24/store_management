@@ -1,0 +1,28 @@
+{
+  "name": "proyecto_integrador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinGo24/store_management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinGo24/store_management/issues"
+  },
+  "homepage": "https://github.com/KevinGo24/store_management#readme",
+  "devDependencies": {
+    "vite": "^8.1.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1"
+  }
+}
