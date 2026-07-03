@@ -40,8 +40,6 @@ export function views_homne() {
         </figure>
 
         <div class="info">
-            <h1>Gestor <strong>Store</strong></h1>
-
             <p>
              "Gestiona tu inventario con inteligencia y lleva el control de tu negocio desde 
              una sola plataforma.
