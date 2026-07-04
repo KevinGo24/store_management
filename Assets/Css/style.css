@@ -1,5 +1,6 @@
 /*importaciones*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
+
 /*---------------------------*/
 * {
     box-sizing: border-box;
@@ -8,17 +9,20 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;    
+    font-family: 'Inter', sans-serif;
     background: linear-gradient(150deg, #a69936, #c97434);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: auto;
-    margin: 10px;
-    padding: 10px;
+    height: 100%;
     font-style: italic;
     display: flex;
-    gap: 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* Logo */
@@ -34,7 +38,7 @@ header {
     width: 100%;
     padding: 15px 40px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, .3);
     border-radius: 10px;
@@ -117,9 +121,30 @@ a {
     align-items: center;
     justify-content: space-around;
     gap: 40px;
-    padding: 20px;
 }
 
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-weight: 400;
+    max-width: 550px;
+    letter-spacing: 1px;
+}
+
+.info h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
 /*Cartas*/
 .carts {
     border: 2px solid white;
@@ -146,13 +171,3 @@ a {
     display: block;
     padding: 10px;
 }
-
-/*etiquetas*/
-
-p{
-    color: white;
-    font-weight: bolder;
-    font-size: 25px;
-    text-shadow: 1px 0px 1px black;
-}
-
