@@ -12,22 +12,21 @@ body {
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
-    margin: 0;
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    font-style: italic;
+    gap: 80px;
+    padding: 20px;
     color: white;
 }
 
 form {
     justify-content: center;
-    display: flex;
     align-items: center;
 }
-
+#form_log {
+    width: 420px;
+}
 .capa_1 {
     padding: 35px;
     display: flex;
@@ -134,4 +133,40 @@ h2 {
 }
 
 /*----------------------------------------------------------*/
-/*label class= campo*/
+/*estilos informativos*/
+.login_container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.info {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.logo_2 {
+    width: 250px;
+    max-width: 100%;
+    object-fit: contain;
+}
+.info p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    text-align: center;
+    font-style: normal;
+}
+
+.info p {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-weight: normal;
+}
