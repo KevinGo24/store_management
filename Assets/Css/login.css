@@ -1,7 +1,3 @@
-/*importaciones*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
-/*---------------------------*/
-
 /*Capas contenedoras */
 * {
     box-sizing: border-box;
@@ -9,28 +5,6 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    background: linear-gradient(150deg, #a69936, #c97434);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-    padding: 20px;
-    color: white;
-}
-
-form {
-    justify-content: center;
-    align-items: center;
-}
-#form_log {
-    width: 420px;
-}
 .capa_1 {
     padding: 35px;
     display: flex;
@@ -52,11 +26,6 @@ form {
     border-radius: 10px;
 }
 
-p {
-    text-align: left;
-    letter-spacing: 2px;
-    font-weight: bolder;
-}
 
 /*------------------------*/
 /*noombre de la plataforma*/
@@ -140,13 +109,13 @@ h2 {
 /*estilos informativos*/
 .login_container {
     width: 100%;
-    max-width: 1200px;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 80px;
 }
-.info {
+.info_marca {
     width: 450px;
     display: flex;
     flex-direction: column;
@@ -160,17 +129,4 @@ h2 {
     width: 250px;
     max-width: 100%;
     object-fit: contain;
-}
-.info p {
-    font-size: 1.3rem;
-    line-height: 1.7;
-    text-align: center;
-    font-style: normal;
-}
-
-.info p {
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 1.6;
-    font-weight: normal;
 }
