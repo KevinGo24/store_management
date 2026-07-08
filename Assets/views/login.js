@@ -1,7 +1,7 @@
 export function view_login() {
     return `    
     <div class="login_container">
-        <div class="info">
+        <div class="info_marca">
             <img src="/Assets/picture/logo (1).png" alt="Logo Gestor Store" class="logo_2">
 
             <h1>Bienvenido a Gestor Store</h1>
