@@ -40,7 +40,7 @@ export function view_login() {
                     Iniciar sesión
                 </button>
 
-                <a href="#register" class="register">
+                <a href="/register" class="register">
                     <i class="bi bi-person-plus-fill"></i>
                     Registrarte
                 </a>

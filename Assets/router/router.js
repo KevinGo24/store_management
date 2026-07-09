@@ -1,3 +1,7 @@
+import { view_register } from "../views/register";
+// importacion de register
+import { registerController } from "../Controller/register.controller";
+// importacion de controlador de register
 import { page_controller } from "../Controller/main.controller";
 // importacion  de la vista de login y su controlador
 import { view_login } from "../views/login";
@@ -5,6 +9,7 @@ import { view_login } from "../views/login";
 import controller_lgoin from "../Controller/login.controller";
 // importacion de Home
 import { views_homne } from "../views/home";
+
 const routes = {
     "/": {
         views: views_homne
@@ -12,6 +17,10 @@ const routes = {
     "/login": {
         views: view_login,
         controller: controller_lgoin
+    },
+    "/register": {
+        views: view_register,
+        controller: registerController
     }
 }
 export default function router() {
@@ -27,3 +36,4 @@ export default function router() {
         route.controller();
     }
 }
+
