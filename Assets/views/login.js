@@ -17,14 +17,6 @@ export function view_login() {
                 <section class="capa_2">
                     <h1>Gestor Store</h1>
                     <label class="campo">
-                        <i class="bi bi-person"></i>
-                        <span>Rol</span>
-                    </label>
-                    <select id="roles" class="selection_rol">
-                        <option value="1">Admin</option>
-                        <option value="2">Usuario</option>
-                    </select>
-                    <label class="campo">
                         <i class="bi bi-envelope-at-fill"></i>
                         <span>Correo electrónico</span>
                     </label>
