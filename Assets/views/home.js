@@ -42,21 +42,67 @@ export function views_homne() {
         <section class="informations">
             <div class="carts">
                 <figure class="info_photo">
-                    <img src="/Assets/picture/cajero.png" alt="" class="photo_info">
+                    <img src="/Assets/picture/2.jpg" alt="" class="photo_info">
                 </figure>
             </div>
             <div class="carts">
                 <figure class="info_photo" >
-                    <img src="/Assets/picture/cajero2.png" alt="" class="photo_info">
+                    <img src="/Assets/picture/3.jpg" alt="" class="photo_info">
                 </figure>
             </div>
             <div class="carts">
                 <figure class="info_photo">
-                    <img src="/Assets/picture/inventario.png" alt="" class="photo_info">
+                    <img src="/Assets/picture/4.jpg" alt="" class="photo_info">
                 </figure>
             </div>
         </section>
-        
+        <footer class="footer">
+            <div class="footer-content">
+
+                <div class="footer-logo">
+                    <h3>Gestor Store</h3>
+                    <p>Gestiona tu inventario de forma rápida y segura.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <a href="/"><i class="bi bi-house-door-fill"></i> Inicio</a>
+                    <a href="/login"><i class="bi bi-person-circle"></i> Login</a>
+                    <a href="/gestor"><i class="bi bi-shop"></i> Gestor</a>
+                    <a href="/soporte"><i class="bi bi-headset"></i> Soporte</a>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="bi bi-github"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-copy">
+                © 2025 Gestor Store | Todos los derechos reservados.
+            </div>
+        </footer>
     </div>
     
     `
