@@ -1,39 +1,24 @@
 export function views_homne() {
     return  `    
     <div class="home">
-        <header>
-            <div class="logo">
-                <img src="/Assets/picture/logo (1).png" alt="logo" class="logotipo">
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="/">
-                            <i class="bi bi-house-door-fill"></i>
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/login">
-                            <i class="bi bi-person-circle"></i>
-                            Login  
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/gestor">
-                            <i class="bi bi-shop"></i>
-                            Gestor de tienda
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/soporte">
-                            <i class="bi bi-headset"></i>
-                            Soporte
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <div class="logo">
+            <img src="/Assets/picture/logo (1).png" alt="logo" class="logotipo">
+        </div>
+
+        <button class="burger-btn">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="/"><i class="bi bi-house-door-fill"></i> Home</a></li>
+                <li><a href="/login"><i class="bi bi-person-circle"></i> Login</a></li>
+                <li><a href="/gestor"><i class="bi bi-shop"></i> Gestor</a></li>
+                <li><a href="/soporte"><i class="bi bi-headset"></i> Soporte</a></li>
+            </ul>
+        </nav>
+    </header>
         <section class="section_info">
             <figure>
                 <img src="/Assets/picture/logo (1).png" alt="Logo de Gestor Store" class="photo">
