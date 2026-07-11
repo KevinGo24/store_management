@@ -8,49 +8,74 @@ export function view_register() {
             <p class="parrafo">Completar los datos para registrarse</p>
 
             <section>
-                <div class="form-grid"> 
+                <div class="form-grid">
+
                     <div class="form-group">
-                        <label for="name">Nombre</label>
-                        <input type="text" id="name"> <!-- Corregido: cerrado con > -->
+                        <label for="name">
+                            <i class="bi bi-person-fill"></i>
+                            Nombre
+                        </label>
+                        <input type="text" id="name">
                     </div>
 
                     <div class="form-group">
-                        <label for="lastname">Apellido</label>
-                        <input type="text" id="lastname"> <!-- Corregido: cerrado con > -->
+                        <label for="lastname">
+                            <i class="bi bi-person-vcard-fill"></i>
+                            Apellido
+                        </label>
+                        <input type="text" id="lastname">
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Correo electrónico</label>
-                        <input type="email" id="email"> <!-- Corregido: cerrado con > -->
+                        <label for="email">
+                            <i class="bi bi-envelope-fill"></i>
+                            Correo electrónico
+                        </label>
+                        <input type="email" id="email">
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Número de teléfono</label>
-                        <input type="tel" id="phone"> <!-- Corregido: cerrado con > -->
+                        <label for="phone">
+                            <i class="bi bi-telephone-fill"></i>
+                            Número de teléfono
+                        </label>
+                        <input type="tel" id="phone">
                     </div>
 
                     <div class="form-group">
-                        <label for="password">Contraseña</label>
-                        <input type="password" id="password"> <!-- Corregido: cerrado con > -->
+                        <label for="password">
+                            <i class="bi bi-lock-fill"></i>
+                            Contraseña
+                        </label>
+                        <input type="password" id="password">
                     </div>
 
                     <div class="form-group">
-                        <label for="confirmPassword">Confirmar contraseña</label>
-                        <input type="password" id="confirmPassword"> <!-- Corregido: cerrado con > -->
+                        <label for="confirmPassword">
+                            <i class="bi bi-shield-lock-fill"></i>
+                            Confirmar contraseña
+                        </label>
+                        <input type="password" id="confirmPassword">
                     </div>
                 </div>
-
             </section>
-        </section>
+        </section>            
+            <div id="errorMessage" class="error-message" style="display: none; color: #ef4444; margin-bottom: 15px; font-size: 14px; text-align: center;"></div>
 
-                <!-- Eliminamos .form-row si no lo usas, o asegúrate de que envuelva bien los grupos -->
-            
-                <div id="errorMessage" class="error-message" style="display: none; color: #ef4444; margin-bottom: 15px; font-size: 14px; text-align: center;"></div>
+                <button type="submit" class="btn-submit">
+                    <i class="bi bi-person-plus-fill"></i>
+                    Registrarse
+                </button>
 
-                <button type="submit" class="btn-submit">Registrarse</button>
-            </form>
+                <div class="register-footer">
+                    <i class="bi bi-person-check-fill"></i>
+                    ¿Ya tienes una cuenta?
+                    <a href="/login">
+                        <i class="bi bi-box-arrow-in-right"></i>
+                        Inicia sesión
+                    </a>
+                </div>
 
-            <div class="register-footer">¿Ya tienes una cuenta? <a href="/login">Inicia sesión</a></div>
     </div>
     `;
 }
