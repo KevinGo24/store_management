@@ -9,6 +9,13 @@ buenas equipo, este es el proyecto integrador en lo cual vamos hacer de producti
 - VITE
 - POSTGRES SQL
 - bootstrap-icons
+## Roles
+### Admin 
+- correo:admin@gmail.com
+- contraseña:admin123
+### Cliente 
+- correo:usuario@gmail.com
+- contraseña:cliente123
 
 ## EJECUTAR PROYECTO
 
