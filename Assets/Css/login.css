@@ -115,3 +115,46 @@ h2 {
     max-width: 100%;
     object-fit: contain;
 }
+
+/* ==========================================================================
+   MEDIA QUERIES (RESPONSIVE DESIGN)
+   ========================================================================== */
+
+/* Pantallas medianas y móviles (Tablets hacia abajo) */
+@media (max-width: 868px) {
+    .login_container {
+        flex-direction: column; /* Cambiado a 'column' para que la marca quede ARRIBA y el login ABAJO */
+        gap: 40px;              /* Espaciado óptimo entre la marca y el formulario */
+        padding-top: 40px;
+        padding-bottom: 40px;
+        justify-content: flex-start; /* Evita que se estiren de forma extraña en pantallas medianas */
+    }
+
+    .info_marca {
+        gap: 15px;
+        width: 100%;
+        max-width: 380px;       /* Un poco más angosto en móvil para estilizar el diseño */
+    }
+
+    .capa_1 {
+        width: 100%;
+        max-width: 380px;       /* Mismo ancho máximo que la marca para mantener simetría visual */
+        padding: 25px;          /* Compacta ligeramente el formulario en móviles */
+    }
+
+    .logo_2 {
+        max-width: 150px;       /* Escala el logotipo a un tamaño ideal para pantallas de celulares */
+    }
+}
+
+/* Ajuste fino para móviles muy pequeños (Pantallas menores a 400px) */
+@media (max-width: 400px) {
+    .login_container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .capa_1 {
+        padding: 20px;          /* Reduce aún más el padding interno para aprovechar el espacio */
+    }
+}
