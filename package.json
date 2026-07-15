@@ -1,7 +1,7 @@
 {
   "name": "proyecto_integrador",
   "version": "1.0.0",
-  "description": "",
+  "description": "buenas equipo, este es el proyecto integrador en lo cual vamos hacer de productividad un sistema de inventarios que estara relacioanda al comercio y al tema de los inventarios, para que el consumidor tenga su propio inventario desde una pagina web o aplicativo para que no lo haga de forma manual si no ya un poco mas moderna",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -23,6 +23,7 @@
     "vite": "^8.1.0"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.13.1"
+    "bootstrap-icons": "^1.13.1",
+    "express": "^5.2.1"
   }
 }
