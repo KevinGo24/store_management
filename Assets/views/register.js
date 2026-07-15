@@ -6,7 +6,7 @@ export function view_register() {
                 <h2 class="register-header h2">Crear cuenta</h2>
                 <p class="parrafo">Completar los datos para registrarse</p>
                         <section class="capa_2">
-                        
+
                                 <label for="name">
                                     <i class="bi bi-person-fill"></i>
                                 <span>Nombre</span>
@@ -45,13 +45,13 @@ export function view_register() {
                                 </label>
                                 <input type="password" id="confirmPassword" class="tbx">
                         </section>
+                        <button type="submit" class="btn-submit">
+                            <i class="bi bi-person-plus-fill"></i>
+                            Registrarse
+                        </button>
             </form>         
             <div id="errorMessage" class="error-message" style="display: none; color: #ef4444; margin-bottom: 15px; font-size: 14px; text-align: center;"></div>
 
-                <button type="submit" class="btn-submit">
-                    <i class="bi bi-person-plus-fill"></i>
-                    Registrarse
-                </button>
 
                 <div class="register-footer">
                     <i class="bi bi-person-check-fill"></i>
