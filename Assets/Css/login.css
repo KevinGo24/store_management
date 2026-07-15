@@ -35,23 +35,7 @@ h1 {
 }
 
 /*------------------------*/
-/*Selector de .selection_rol*/
-.selection_rol {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px;
-    border: none;
-    transition: .5s;
-    box-sizing: border-box;
-}
 
-.selection_rol:hover {
-    transform: scale(1.1);
-}
-
-/*------------------------*/
 /*clases de los input = tbx*/
 .tbx {
     border: none;
