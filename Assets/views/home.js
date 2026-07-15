@@ -1,5 +1,5 @@
 export function views_homne() {
-    return  `    
+  return `    
     <div class="home">
     <header>
         <div class="logo">
@@ -27,15 +27,13 @@ export function views_homne() {
             <div class="info">
                 <h2>¿Qué es Gestor Store?</h2>
                 <p>
-                Gestiona tu inventario con inteligencia y lleva el control de tu negocio desde 
-                una sola plataforma.
-                Con Gestor Store podrás administrar productos, controlar existencias en tiempo real, 
-                registrar entradas y salidas, organizar categorías, consultar reportes detallados y 
-                mantener toda la información de tu inventario siempre actualizada. 
-                Nuestra plataforma está diseñada para ser rápida, intuitiva y segura, 
-                ayudándote a optimizar procesos, reducir pérdidas y tomar mejores decisiones 
-                para hacer crecer tu empresa con mayor eficiencia y confianza.
-
+                Gestor Store es tu panel de control inteligente para administrar inventarios con rapidez y precisión.
+                Desde una sola plataforma puedes crear productos, revisar existencias en tiempo real y registrar entradas
+                y salidas sin complicaciones. Con nuestro sistema mantienes tus datos siempre actualizados, ves el estado
+                del stock al instante y tomas decisiones más certeras para tu negocio.
+                <br><br>
+                Diseñada para ser intuitiva, segura y eficiente, Gestor Store te ayuda a ahorrar tiempo, reducir pérdidas
+                y mejorar tu gestión comercial con un flujo de trabajo claro y profesional.
                 </p>
             </div>
         </section>
@@ -44,16 +42,19 @@ export function views_homne() {
                 <figure class="info_photo">
                     <img src="/Assets/picture/2.jpg" alt="" class="photo_info">
                 </figure>
+                <p class="card-text">Organiza tu inventario de forma sencilla y visual. Controla el stock con precisión y evita quiebres.</p>
             </div>
             <div class="carts">
                 <figure class="info_photo" >
                     <img src="/Assets/picture/3.jpg" alt="" class="photo_info">
                 </figure>
+                <p class="card-text">Consulta datos en tiempo real y toma decisiones rápidas con información clara y confiable.</p>
             </div>
             <div class="carts">
                 <figure class="info_photo">
                     <img src="/Assets/picture/4.jpg" alt="" class="photo_info">
                 </figure>
+                <p class="card-text">Aumenta la eficiencia de tu negocio con un sistema diseñado para crecer contigo.</p>
             </div>
         </section>
         <footer class="footer">
@@ -61,40 +62,25 @@ export function views_homne() {
 
                 <div class="footer-logo">
                     <h3>Gestor Store</h3>
-                    <p>Gestiona tu inventario de forma rápida y segura.</p>
+                    <p>Optimiza tu gestión de inventario y mantén tu negocio controlado desde una sola plataforma.</p>
                 </div>
 
                 <div class="footer-links">
-                    <h4>Enlaces</h4>
+                    <h4>Enlaces rápidos</h4>
                     <a href="/"><i class="bi bi-house-door-fill"></i> Inicio</a>
                     <a href="/login"><i class="bi bi-person-circle"></i> Login</a>
-                    <a href="/gestor"><i class="bi bi-shop"></i> Gestor</a>
                     <a href="/soporte"><i class="bi bi-headset"></i> Soporte</a>
                 </div>
 
                 <div class="footer-social">
                     <h4>Síguenos</h4>
-
-                    <a href="#">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bi bi-twitter-x"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bi bi-github"></i>
-                    </a>
-
+                    <div class="footer-social-links">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    </div>
                 </div>
 
             </div>
@@ -105,5 +91,5 @@ export function views_homne() {
         </footer>
     </div>
     
-    `
+    `;
 }
