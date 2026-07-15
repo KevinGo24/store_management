@@ -147,18 +147,29 @@ h2 {
 /*Cartas*/
 .carts {
     border: 2px solid white;
-    height: 350px;
+    min-height: 350px;
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 10px;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.carts:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 195, 255, 0.6);
 }
 
 .info_photo {
     width: 100%;
-    height: 100%;
+    height: 220px;
     margin: 0;
 }
 
@@ -168,8 +179,16 @@ h2 {
     object-fit: cover;
     border-radius: 10px;
     display: block;
-    padding: 2rem;
-    
+}
+
+.card-text {
+    margin: 0;
+    color: #f8f8f8;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: center;
+    width: 100%;
+    padding: 0 10px 10px;
 }
 .burger-btn {
     display: none;
@@ -274,22 +293,37 @@ h2 {
 .footer-social {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
 }
 
 .footer-social h4 {
     margin-bottom: 10px;
 }
 
+.footer-social-links {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .footer-social a {
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     transition: .3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
 }
 
 .footer-social a:hover {
     color: #00c3ff;
-    transform: scale(1.2);
+    border-color: #00c3ff;
+    transform: scale(1.1);
 }
 
 .footer-copy {
