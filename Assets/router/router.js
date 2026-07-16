@@ -1,3 +1,6 @@
+import { dashboardController } from "../Controller/dashboard.controller";
+import { views_dashboard } from "../views/dashboard";
+// importacion de dashboard
 import { page_controller } from "../Controller/main.controller";
 // importacion de register
 import { view_register } from "../views/register";
@@ -26,6 +29,9 @@ const routes = {
     },
     "/soporte":{
         views: views_soporte
+    },
+    "/gestor":{
+        views: views_dashboard
     }
 }
 export default function router() {
