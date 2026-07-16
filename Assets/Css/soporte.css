@@ -1,74 +1,222 @@
-/* ==========================================
-   ESTILOS GENERALES (Móviles primero / Base)
-   ========================================== */
-.soporte {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border: solid #d3b96e 3px;
-    border-radius: 20px;
-    padding: 20px;
-    
-    /* Cambios responsivos clave: */
-    width: auto;             /* Evita que el contenedor se desborde con el margin */
-    margin: 20px 10px;       /* Margen lateral más pequeño en pantallas chicas */
-    box-sizing: border-box;  /* Asegura que el padding no rompa el ancho total */
+
+
+
+/* Contenedor General (Fondo Gris Claro Corporativo) */
+.soporte-container {
+  background-color: #22222282;
+  font-family: 'Inter', sans-serif;
+  color: #eee8bc;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.soporte_logo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.titulo-principal {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e2dede;
+  margin: 20px;
+  text-align: center;
 }
 
-.logo_soporte {
-    /* En móviles el logo debe ser fluido para no salirse de la pantalla */
-    width: 100%;
-    max-width: 280px;        /* Tamaño máximo ideal en teléfonos */
-    height: auto;            /* Mantiene la proporción de aspecto cuadrada */
-    aspect-ratio: 1 / 1;     /* Fuerza a que siempre sea un cuadrado perfecto */
-    border-radius: 10px;
-    animation: logo infinite 5s;
-    transition: transform 0.3s ease;
+/* Grilla de Servicios Superior */
+.servicios-grid {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+  margin-bottom: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.logo_soporte:hover {
-    cursor: pointer;
-    transform: scale(1.03);
+.tarjeta-servicio {
+ background-color: #545252;
+  border-radius: 12px;
+  padding: 24px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
 }
 
-.tel_soporte {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    text-align: center;      /* Centra los textos en pantallas pequeñas */
+.tarjeta-servicio:hover {
+  transform: translateY(-4px);
 }
 
-/* Animación optimizada */
-@keyframes logo {
-    0%, 100% {
-        box-shadow: #d3b96e 0px 0px 15px 2px;
-    }
-    50% {
-        box-shadow: white 0px 0px 20px 4px;
-    }
+.icono-servicio {
+  font-size: 2rem;
+  margin-bottom: 12px;
 }
 
-/* ==========================================
-   PANTALLAS MEDIANAS Y GRANDES (Tabletas / PC)
-   Desde 768px de ancho en adelante
-   ========================================== */
-@media (min-width: 768px) {
-    .soporte {
-        margin: 20px;        /* Recupera el margen original */
-    }
+.tarjeta-servicio h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 
-    .logo_soporte {
-        max-width: 400px;    /* Recupera tus 400px originales en pantallas grandes */
-    }
+.tarjeta-servicio p {
+  font-size: 0.9rem;
+  color: #b4b4b9;
+  line-height: 1.5;
+  margin: 0;
+}
 
-    .tel_soporte {
-        text-align: left;    /* Alinea el texto a la izquierda en PC si lo prefieres */
-    }
+/* Sección Inferior de Contacto */
+.contacto-section {
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.titulo-secundario {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contacto-grid {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tarjeta-contacto {
+  background-color: #545252;
+  border-radius: 12px;
+  padding: 24px 30px;
+  min-width: 320px;
+  max-width: 400px;
+  flex: 1;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta-contacto h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #edf2f7;
+  padding-bottom: 10px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.info-item:last-child {
+  margin-bottom: 0;
+}
+
+.icono-contacto {
+  background-color: #edeff1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.etiqueta {
+  display: block;
+  font-size: 0.8rem;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+.valor {
+  display: block;
+  font-size: 0.95rem;
+  color: #1a2530;
+}
+
+.font-destacada {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.form {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px;
+  min-width: 380px;
+  max-width: 400px;
+  align-items: center;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, .08);
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+.label_input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #161515;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.603);
+  font-size: 16px;
+}
+
+.label_correo {
+  font-weight: bold;
+}
+
+.texto {
+  width: 70%;
+  padding: 10px 10p;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #161515;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.603);
+  font-size: 15px;
+  font-family: 'inter', sans-serif ;
+}
+
+.buttom_form {
+   width: 70%;
+  padding: 10px;
+  margin-top: 25px;
+  background-color: #b6b4af6e;
+  color: #ddba6d;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.buttom_form:hover {
+    background-color: #0000009c;
+}
+
+.buttom_form:active {
+  transform: scale(1.98);
 }
