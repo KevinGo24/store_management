@@ -76,13 +76,15 @@ export function views_soporte() {
   </section>
   <form class="form" action="">
             <label class="label_correo">
-                  Correo electronico
+                <spam>Correo electronico</spam>
+                <i class="bi bi-envelope-at-fill"></i>
             </label>
-            <input type="email" name="" id="" class="label_input">
+            <input type="email" name="" id="" class="tbx">
             <label class="label_correo">
-                  Motivo de daño o reclamo
+                  <span>Motivo de daño o reclamo</span>
+                  <i class="bi bi-chat-right-dots-fill"></i>
             </label>
-            <textarea name="" id="" class="texto"></textarea>
+            <textarea name="" id="" class="tbx"></textarea>
             <button class="buttom_form">Enviar formulario</button>
       </form>
 </div>   
