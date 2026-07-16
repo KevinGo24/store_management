@@ -1,0 +1,160 @@
+/*Capas contenedoras */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.capa_1 {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1px 1px 25px 1px  #6b5f5aea;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .08);
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+
+.capa_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 1px 1px 25px 1px  #746964ea;
+    border-radius: 10px;
+}
+
+
+/*------------------------*/
+/*noombre de la plataforma*/
+h1 {
+    text-shadow: 1px 0px 1px black;
+}
+
+/*------------------------*/
+
+/*clases de los input = tbx*/
+.tbx {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*------------------------*/
+/*clase de los button = btn*/
+
+.btn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-style: italic;
+    transition: .5s;
+}
+
+.btn:hover {
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+    background: #1E1E1E;
+}
+
+/*----------------------------------------------------------*/
+h2 {
+    padding: 10px;
+    text-shadow: black 1px 0px 1px;
+    border-bottom: #d3b96e solid 3px;
+}
+
+/*----------------------------------------------------------*/
+/*a = class register*/
+
+.register {
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.register:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+     background: #1E1E1E;
+}
+
+/*----------------------------------------------------------*/
+/*estilos informativos*/
+.login_container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.info_marca {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.logo_2 {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES (RESPONSIVE DESIGN)
+   ========================================================================== */
+
+/* Pantallas medianas y móviles (Tablets hacia abajo) */
+@media (max-width: 868px) {
+    .login_container {
+        flex-direction: column; /* Cambiado a 'column' para que la marca quede ARRIBA y el login ABAJO */
+        gap: 40px;              /* Espaciado óptimo entre la marca y el formulario */
+        padding-top: 40px;
+        padding-bottom: 40px;
+        justify-content: flex-start; /* Evita que se estiren de forma extraña en pantallas medianas */
+    }
+
+    .info_marca {
+        gap: 15px;
+        width: 100%;
+        max-width: 380px;       /* Un poco más angosto en móvil para estilizar el diseño */
+    }
+
+    .capa_1 {
+        width: 100%;
+        max-width: 380px;       /* Mismo ancho máximo que la marca para mantener simetría visual */
+        padding: 25px;          /* Compacta ligeramente el formulario en móviles */
+    }
+
+    .logo_2 {
+        max-width: 150px;       /* Escala el logotipo a un tamaño ideal para pantallas de celulares */
+    }
+}
+
+/* Ajuste fino para móviles muy pequeños (Pantallas menores a 400px) */
+@media (max-width: 400px) {
+    .login_container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .capa_1 {
+        padding: 20px;          /* Reduce aún más el padding interno para aprovechar el espacio */
+    }
+}
