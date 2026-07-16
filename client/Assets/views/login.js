@@ -1,0 +1,45 @@
+export function view_login() {
+    return `    
+    <div class="login_container">
+        <div class="info_marca">
+            <img src="/Assets/picture/logo (1).png" alt="Logo Gestor Store" class="logo_2">
+
+            <h1>Bienvenido a Gestor Store</h1>
+
+            <p>
+                Administra tus productos, usuarios y ventas desde una sola
+                plataforma de forma rápida y segura.
+            </p>
+        </div>
+        <form id="form_log">
+            <section class="capa_1">
+                <h2>Inicio de Sesion</h2>
+                <section class="capa_2">
+                    <h1>Gestor Store</h1>
+                    <label class="campo">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <span>Correo electrónico</span>
+                    </label>
+                    <input type="email" name="" id="correo" class="tbx">
+                    <label class="campo">
+                        <i class="bi bi-lock-fill"></i>
+                        <span>Contraseña</span>
+                    </label>
+                    <input type="password" name="" id="pass" class="tbx">
+                </section>
+                <button class="btn" type="submit">
+                    <i class="bi bi-box-arrow-in-right"></i>
+                    Iniciar sesión
+                </button>
+
+                <a href="/register" class="register">
+                    <i class="bi bi-person-plus-fill"></i>
+                    Registrarte
+                </a>
+            </section>
+        </form>
+    </div>
+
+    `
+
+}
