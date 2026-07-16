@@ -74,7 +74,17 @@ export function views_soporte() {
       </div>
     </div>
   </section>
-</div>
-    
+  <form class="form" action="">
+            <label class="label_correo">
+                  Correo electronico
+            </label>
+            <input type="email" name="" id="" class="label_input">
+            <label class="label_correo">
+                  Motivo de daño o reclamo
+            </label>
+            <textarea name="" id="" class="texto"></textarea>
+            <button class="buttom_form">Enviar formulario</button>
+      </form>
+</div>   
     `
 }

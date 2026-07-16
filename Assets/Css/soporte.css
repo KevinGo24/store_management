@@ -1,5 +1,4 @@
-/* Importación de tipografía moderna y limpia */
-@import url('https://googleapis.com');
+
 
 
 /* Contenedor General (Fondo Gris Claro Corporativo) */
@@ -145,4 +144,79 @@
 .font-destacada {
   font-weight: 600;
   font-size: 1.1rem;
+}
+
+.form {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px;
+  min-width: 380px;
+  max-width: 400px;
+  align-items: center;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, .08);
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+.label_input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #161515;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.603);
+  font-size: 16px;
+}
+
+.label_correo {
+  font-weight: bold;
+}
+
+.texto {
+  width: 70%;
+  padding: 10px 10p;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #161515;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.603);
+  font-size: 15px;
+  font-family: 'inter', sans-serif ;
+}
+
+.buttom_form {
+   width: 70%;
+  padding: 10px;
+  margin-top: 25px;
+  background-color: #b6b4af6e;
+  color: #ddba6d;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.buttom_form:hover {
+    background-color: #0000009c;
+}
+
+.buttom_form:active {
+  transform: scale(1.98);
 }
