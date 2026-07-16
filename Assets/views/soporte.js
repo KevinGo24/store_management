@@ -84,9 +84,9 @@ export function views_soporte() {
                   <span>Motivo de daño o reclamo</span>
                   <i class="bi bi-chat-right-dots-fill"></i>
             </label>
-            <textarea name="" id="" class="tbx"></textarea>
+            <textarea name="" id="" class="textarea"></textarea>
             <button class="buttom_form">Enviar formulario</button>
       </form>
 </div>   
-    `
+    `  
 }

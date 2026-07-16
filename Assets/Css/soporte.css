@@ -220,3 +220,37 @@
 .buttom_form:active {
   transform: scale(1.98);
 }
+
+.textarea{
+    resize: none;
+    background: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}
+
+.textarea::-webkit-scrollbar{
+    width: 5px;
+}
+
+.textarea::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+.textarea::-webkit-scrollbar-thumb{
+    background: rgb(13, 13, 13);
+    border-radius: 10px;
+}
+
+.textarea::-webkit-scrollbar-thumb:hover{
+    background: rgb(190, 185, 185);
+}
+
+.textarea {
+  width: 100%;          
+  box-sizing: border-box; 
+  max-width: 100%;      
+  resize: vertical;     
+}
