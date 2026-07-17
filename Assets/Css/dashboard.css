@@ -41,6 +41,12 @@ body {
     gap: 10px;
 }
 
+.exit {
+    color: rgba(233, 166, 43, 0.836);
+    font-size: 15px;
+    
+}
+
 .menu-item {
     padding: 12px 15px;
     color: var(--text-secondary);
@@ -73,6 +79,7 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 20px;
+    box-shadow: 10px 10px 10px  black
 }
 
 .card h3 {
@@ -83,12 +90,17 @@ body {
     letter-spacing: 0.5px;
 }
 
+.card:hover {
+    background-color: #121212;
+    transition: background-color 0.8s ease;
+}
+
 /* 7. Fila de Indicadores (KPIs) */
 .kpi-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
-   /* box-shadow: 10px 10px 10px 10px black */
+ 
 }
 
 .kpi .value {

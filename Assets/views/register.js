@@ -53,8 +53,7 @@ export function view_register() {
             <div id="errorMessage" class="error-message" style="display: none; color: #ef4444; margin-bottom: 15px; font-size: 14px; text-align: center;"></div>
 
 
-                <div class="register-footer">
-                    <i class="bi bi-person-check-fill"></i>
+                <div class="register-footer">               
                     ¿Ya tienes una cuenta?
                     <a href="/login">
                         <i class="bi bi-box-arrow-in-right"></i>

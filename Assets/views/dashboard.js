@@ -4,12 +4,15 @@ export function views_dashboard() {
         <!-- Menú Lateral -->
         <aside class="sidebar">
             <img src="/Assets/picture/logo (1).png" alt="Logo Gestor Store" class="logo">
-            <div class="menu-item active">Inicio</div>
-            <div class="menu-item">Catálogo</div>
-            <div class="menu-item">Existencias</div>
-            <div class="menu-item">Reportes</div>
-            <div class="menu-item">Entrada/Salida Productos</div>
-            <div class="menu-item">Salir</div>
+            <div class="menu-item active"><i class="bi bi-house-door-fill"></i> Inicio </div>
+            <div class="menu-item"><i class="bi bi-calendar3"></i> Catálogo</div>
+            <div class="menu-item"><i class="bi bi-boxes"></i> Existencias</div>
+            <div class="menu-item"><i class="bi bi-bar-chart-fill"></i> Reportes</div>
+            <div class="menu-item"><i class="bi bi-reply-all-fill"></i> Entrada/Salida Productos</div>
+            <div class="menu-item"><i class="bi bi-plus-circle"></i> Agregar Productos</div>
+            
+            <div class="menu-item"><p class="exit"><i class="bi bi-door-open-fill exit"></i> Cerrar sesión</p></div>
+            
         </aside>
 
         <!-- Contenido Principal -->
@@ -20,7 +23,7 @@ export function views_dashboard() {
                     <h3>Total Productos</h3>
                     <p class="value">2,540 <span class="up">↑</span></p>
                 </div>
-                <div class="card kpi">
+                <div class="card kpi" class="cards">
                     <h3>Valor de Inventario</h3>
                     <p class="value">$185,000</p>
                 </div>
