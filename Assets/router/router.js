@@ -1,3 +1,5 @@
+import { views_catalogo } from "../views/catalogo";
+// import vista catalogo
 import { dashboardController } from "../Controller/dashboard.controller";
 import { views_dashboard } from "../views/dashboard";
 // importacion de dashboard
@@ -34,6 +36,9 @@ const routes = {
     "/gestor": {
         views: views_dashboard,
         controller: dashboardController
+    },
+    "#/catalogo": {
+        views: views_catalogo
     },
 
     "#/movimientos": {
