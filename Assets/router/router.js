@@ -31,7 +31,7 @@ const routes = {
         views: views_soporte
     },
     "/gestor":{
-        views: views_dashboard
+        views: views_dashboard 
     }
 }
 export default function router() {

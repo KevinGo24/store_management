@@ -18,20 +18,20 @@ export function views_dashboard() {
         <!-- Contenido Principal -->
         <main class="main-content">
             <!-- Fila superior de tarjetas KPI -->
-            <section class="kpi-row">
-                <div class="card kpi">
+            <section class="kpi-row ">
+                <div class="card kpi c4">
                     <h3>Total Productos</h3>
                     <p class="value">2,540 <span class="up">↑</span></p>
                 </div>
-                <div class="card kpi" class="cards">
+                <div class="card kpi c4" class="cards">
                     <h3>Valor de Inventario</h3>
                     <p class="value">$185,000</p>
                 </div>
-                <div class="card kpi alert-kpi">
+                <div class="card kpi alert-kpi c4">
                     <h3>Existencias Bajas</h3>
                     <p class="value">45</p>
                 </div>
-                <div class="card kpi">
+                <div class="card kpi c4">
                     <h3>Movimientos del Día</h3>
                     <p class="value sub">64 Entradas / 30 Salidas</p>
                 </div>
@@ -39,7 +39,7 @@ export function views_dashboard() {
 
             <!-- Sección de Gráficos y Tablas -->
             <section class="data-grid">
-                <div class="card grid-2">
+                <div class="card grid-2 c4">
                     <h3>Tabla de Alertas de Reabastecimiento</h3>
                     <table>
                         <thead>
@@ -60,7 +60,7 @@ export function views_dashboard() {
                         </tbody>
                     </table>
                 </div>
-                <div class="card">
+                <div class="card c4">
                     <h3>Últimos Reportes</h3>
                     <div class="report-item">Reporte Mensual Jun</div>
                     <div class="report-item">Auditoría Stock</div>

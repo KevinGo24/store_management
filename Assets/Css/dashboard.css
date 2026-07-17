@@ -82,6 +82,11 @@ body {
     box-shadow: 10px 10px 10px  black
 }
 
+.c4 {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/073/073/080/small/gold-bars-and-rising-chart-symbolize-financial-growth-photo.jpeg');
+    background-size: cover ;
+}
+
 .card h3 {
     font-size: 0.9rem;
     color: var(--text-secondary);
