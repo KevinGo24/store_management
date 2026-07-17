@@ -5,12 +5,21 @@ export function views_dashboard() {
         <aside class="sidebar">
             <img src="/Assets/picture/logo (1).png" alt="Logo Gestor Store" class="logo">
             <div class="menu-item active"><i class="bi bi-house-door-fill"></i> Inicio </div>
-            <div class="menu-item"><i class="bi bi-calendar3"></i> Catálogo</div>
-            <div class="menu-item"><i class="bi bi-boxes"></i> Existencias</div>
-            <div class="menu-item"><i class="bi bi-bar-chart-fill"></i> Reportes</div>
-            <div class="menu-item"><i class="bi bi-reply-all-fill"></i> Entrada/Salida Productos</div>
-            <div class="menu-item"><i class="bi bi-plus-circle"></i> Agregar Productos</div>
-            
+            <div class="menu-item">
+            <a href="#/catalogo" class="menu-link"><i class="bi bi-calendar3"></i> Catálogo</a>
+            </div>
+            <div class="menu-item">
+            <a href="#/existencias" class="menu-link"><i class="bi bi-boxes"></i> Existencias</a>
+            </div>
+            <div class="menu-item">
+            <a href="#/reportes" class="menu-link"><i class="bi bi-bar-chart-fill"></i> Reportes</a>
+            </div>
+            <div class="menu-item">
+            <a href="#/movimientos" class="menu-link"><i class="bi bi-reply-all-fill"></i> Entrada/Salida Productos</a>
+            </div>
+            <div class="menu-item">
+            <a href="#/agregar" class="menu-link"><i class="bi bi-plus-circle"></i> Agregar Productos</a>
+            </div>
             <div class="menu-item"><p class="exit"><i class="bi bi-door-open-fill exit"></i> Cerrar sesión</p></div>
             
         </aside>
