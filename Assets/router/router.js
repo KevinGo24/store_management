@@ -13,6 +13,7 @@ import { views_homne } from "../views/home";
 import { controller_home } from "../Controller/home.controller";
 // importacion de soporte
 import { views_soporte } from "../views/soporte";
+import { views_movimientos } from "../views/movimiento";
 
 const routes = {
     "/": {
@@ -27,22 +28,23 @@ const routes = {
         views: view_register,
         controller: registerController
     },
-    "/soporte":{
+    "/soporte": {
         views: views_soporte
     },
-    "/gestor":{
-        views: views_dashboard 
+    "/gestor": {
+        views: views_dashboard,
+        controller: dashboardController
+    },
+
+    "#/movimientos": {
+        views: views_movimientos
     }
 }
 export default function router() {
     const master = document.getElementById("views");
-
-    const path = window.location.pathname;
-
+    const path = window.location.hash || window.location.pathname;
     const route = routes[path] || routes["/"];
-
     master.innerHTML = route.views();
-
     if (route.controller) {
         route.controller();
     }
