@@ -143,3 +143,106 @@ Si deseas aportar mejoras, crea una rama nueva y envía un pull request con tus 
 ## 📬 Contacto
 
 Cualquier duda sobre el proyecto puede ser consultada con el equipo de desarrollo o registrada en el repositorio.
+
+# Árbol del proyecto (sin node_modules)
+
+```
+store_management/
+├─ index.html
+├─ main.js
+├─ package.json
+├─ README.md
+├─ vite.config.js
+├─ Assets/
+│  ├─ Controller/
+│  │  ├─ dashboard.controller.js
+│  │  ├─ home.controller.js
+│  │  ├─ login.controller.js
+│  │  ├─ main.controller.js
+│  │  ├─ movimiento.controller.js
+│  │  └─ register.controller.js
+│  ├─ Css/
+│  │  ├─ catalogo.css
+│  │  ├─ dashboard.css
+│  │  ├─ formularios.css
+│  │  ├─ login.css
+│  │  ├─ movimiento.css
+│  │  ├─ register.css
+│  │  ├─ soporte.css
+│  │  └─ style.css
+│  ├─ data/
+│  │  ├─ permisos.js
+│  │  └─ user.js
+│  ├─ icons/
+│  ├─ picture/
+│  ├─ router/
+│  │  └─ router.js
+│  ├─ utils/
+│  │  └─ auth.js
+│  └─ views/
+│     ├─ agregar_producto.js
+│     ├─ catalogo.js
+│     ├─ dashboard.js
+│     ├─ home.js
+│     ├─ login.js
+│     ├─ movimiento.js
+│     ├─ register.js
+│     └─ soporte.js
+├─ client/
+│  ├─ index.html
+│  ├─ main.js
+│  ├─ package.json
+│  ├─ README.md
+│  ├─ vite.config.js
+│  └─ Assets/
+│     ├─ Controller/
+│     │  ├─ dashboard.controller.js
+│     │  ├─ home.controller.js
+│     │  ├─ login.controller.js
+│     │  ├─ main.controller.js
+│     │  ├─ movimiento.controller.js
+│     │  └─ register.controller.js
+│     ├─ Css/
+│     │  ├─ catalogo.css
+│     │  ├─ dashboard.css
+│     │  ├─ login.css
+│     │  ├─ movimiento.css
+│     │  ├─ register.css
+│     │  ├─ soporte.css
+│     │  └─ style.css
+│     ├─ data/
+│     │  ├─ permisos.js
+│     │  └─ user.js
+│     ├─ icons/
+│     ├─ picture/
+│     ├─ router/
+│     │  └─ router.js
+│     ├─ utils/
+│     │  └─ auth.js
+│     └─ views/
+│        ├─ catalogo.js
+│        ├─ dashboard.js
+│        ├─ home.js
+│        ├─ login.js
+│        ├─ movimiento.js
+│        ├─ register.js
+│        └─ soporte.js
+├─ views/
+│  ├─ catalogo.js
+│  ├─ dashboard.js
+│  ├─ home.js
+│  ├─ login.js
+│  ├─ movimiento.js
+│  ├─ register.js
+│  └─ soporte.js
+└─ server/
+   ├─ db.js
+   ├─ package.json
+   ├─ server.js
+   └─ controllers/
+      ├─ login.controller.js
+      └─ register.controller.js
+
+```
+
+Nota: node_modules/ no está incluido.
