@@ -1,7 +1,8 @@
 # 🚀 Gestor Store - Proyecto Integrador
 
 <p align="center">
-  <img src="./screenshots/logo.png" alt="Logo Gestor Store" width="180"/>
+  <img width="1254" height="1254" alt="ChatGPT Image 17 jul 2026, 08_14_21 p m" src="https://github.com/user-attachments/assets/056d84d7-2b69-46c5-99ae-6fe9486492d9" />
+
 </p>
 
 Gestor Store es una aplicación web de inventarios diseñada para facilitar la administración de productos y la gestión de comercio. El objetivo es ofrecer una solución moderna que permita a los usuarios mantener un inventario actualizado sin procesos manuales, con una interfaz intuitiva y acceso desde el navegador.
@@ -37,32 +38,40 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
     <td align="center"><b>Inicio de sesión</b></td>
   </tr>
   <tr>
-    <td><img src="./screenshots/home.png" width="400"/></td>
-    <td><img src="./screenshots/login.png" width="400"/></td>
+    <td><img width="1366" height="768" alt="inicio" src="https://github.com/user-attachments/assets/7fa9cc95-266e-4848-83ed-36c79489a5c7" />
+</td>
+    <td><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c92558b8-24cd-4ce8-9871-f933e6c06ed8" />
+</td>
   </tr>
   <tr>
     <td align="center"><b>Registro de usuario</b></td>
     <td align="center"><b>Soporte</b></td>
   </tr>
   <tr>
-    <td><img src="./screenshots/registro.png" width="400"/></td>
-    <td><img src="./screenshots/soporte.png" width="400"/></td>
+    <td><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/108f9b07-32c7-48fd-9c4c-bd0eaf73aed9" />
+</td>
+    <td><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1623cc90-4ba2-43c1-a67c-0c954a6b989e" />
+</td>
   </tr>
   <tr>
     <td align="center"><b>Panel de gestión (Dashboard)</b></td>
     <td align="center"><b>Catálogo de productos</b></td>
   </tr>
   <tr>
-    <td><img src="./screenshots/dashboard.png" width="400"/></td>
-    <td><img src="./screenshots/catalogo.png" width="400"/></td>
+    <td><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ad721551-1067-4629-aee6-8cb2ca5ff4da" />
+</td>
+    <td><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4b06229e-a267-4455-88a2-240bcd562efe" />
+</td>
   </tr>
   <tr>
     <td align="center"><b>Agregar producto</b></td>
     <td align="center"><b>Movimientos de inventario</b></td>
   </tr>
   <tr>
-    <td><img src="./screenshots/agregar_producto.png" width="400"/></td>
-    <td><img src="./screenshots/movimientos.png" width="400"/></td>
+    <td><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2b2ebecc-583f-441f-a970-6d6a22321269" />
+</td>
+    <td><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2324a2ef-d5d6-4cc0-a0fa-74cd91167d7c" />
+</td>
   </tr>
 </table>
 
