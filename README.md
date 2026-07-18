@@ -1,6 +1,12 @@
 # 🚀 Gestor Store - Proyecto Integrador
 
+<p align="center">
+  <img src="./screenshots/logo.png" alt="Logo Gestor Store" width="180"/>
+</p>
+
 Gestor Store es una aplicación web de inventarios diseñada para facilitar la administración de productos y la gestión de comercio. El objetivo es ofrecer una solución moderna que permita a los usuarios mantener un inventario actualizado sin procesos manuales, con una interfaz intuitiva y acceso desde el navegador.
+
+---
 
 ## ✨ Características principales
 
@@ -9,6 +15,8 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 - 🔐 Registro e inicio de sesión de usuarios
 - 🌐 Navegación con rutas SPA (enrutador propio)
 - 🎨 Uso de iconos con Bootstrap Icons
+
+---
 
 ## 🧰 Tecnologías utilizadas
 
@@ -19,6 +27,47 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 - Bootstrap Icons
 - PostgreSQL (para la base de datos)
 
+---
+
+## 📸 Capturas de pantalla
+
+<table>
+  <tr>
+    <td align="center"><b>Página de inicio</b></td>
+    <td align="center"><b>Inicio de sesión</b></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/home.png" width="400"/></td>
+    <td><img src="./screenshots/login.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Registro de usuario</b></td>
+    <td align="center"><b>Soporte</b></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/registro.png" width="400"/></td>
+    <td><img src="./screenshots/soporte.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Panel de gestión (Dashboard)</b></td>
+    <td align="center"><b>Catálogo de productos</b></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/dashboard.png" width="400"/></td>
+    <td><img src="./screenshots/catalogo.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Agregar producto</b></td>
+    <td align="center"><b>Movimientos de inventario</b></td>
+  </tr>
+  <tr>
+    <td><img src="./screenshots/agregar_producto.png" width="400"/></td>
+    <td><img src="./screenshots/movimientos.png" width="400"/></td>
+  </tr>
+</table>
+
+---
+
 ## 📁 Estructura del proyecto
 
 - `index.html` - Punto de entrada de la aplicación
@@ -26,17 +75,19 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 - `Assets/` - Archivos de estilos, componentes, vistas y controladores
 - `public/` - Recursos estáticos como el favicon
 
+---
+
 ## 👤 Usuarios de prueba
 
 ### Administrador
-
 - Correo: `admin@gmail.com`
 - Contraseña: `admin123`
 
 ### Cliente
-
 - Correo: `usuario@gmail.com`
 - Contraseña: `cliente123`
+
+---
 
 ## ▶️ Instalación y ejecución
 
@@ -52,7 +103,31 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 
 > Nota: `npm init -y` solo es necesario si el proyecto aún no tiene `package.json`.
 
+---
+
+## 👥 Integrantes del equipo
+
+| Integrante | Grupo |
+|---|---|
+| Kevin Andrés González Visbal | Cayena |
+| Rafael Ramos Rada | Cayena |
+| Ángel David Arnache Cantillo | Cayena |
+| Luis Daniel Manotas Guzmán | Cortissoz |
+| Daniel Pallares | *(pendiente por confirmar)* |
+
+---
+
 ## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas colaborar con este proyecto:
+
+1. Haz un *fork* del repositorio.
+2. Crea una rama para tu funcionalidad o corrección: `git checkout -b feature/nombre-funcionalidad`.
+3. Realiza tus cambios y haz *commit* con un mensaje claro y descriptivo.
+4. Sube tus cambios a tu repositorio: `git push origin feature/nombre-funcionalidad`.
+5. Abre un *Pull Request* describiendo los cambios propuestos.
+
+Para reportar errores o sugerir mejoras, por favor abre un *issue* en el repositorio.
 
 Si deseas aportar mejoras, crea una rama nueva y envía un pull request con tus cambios. Asegúrate de documentar bien cada nueva funcionalidad.
 
