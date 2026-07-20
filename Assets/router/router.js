@@ -1,3 +1,5 @@
+import { views_reportes } from "../views/reportes";
+// import de vista reportes
 import { views_catalogo } from "../views/catalogo";
 // import vista catalogo
 import { dashboardController } from "../Controller/dashboard.controller";
@@ -37,12 +39,18 @@ const routes = {
         views: views_dashboard,
         controller: dashboardController
     },
+    "#/dashboard": {
+        views: views_dashboard
+    },
     "#/catalogo": {
         views: views_catalogo
     },
 
     "#/movimientos": {
         views: views_movimientos
+    },
+    "#/reportes": {
+        views: views_reportes
     }
 }
 export default function router() {

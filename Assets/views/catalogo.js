@@ -1,11 +1,13 @@
 export function views_catalogo() {
   return `
 
-        <header>      
+    <div class="filter-bar">  
+        <div class="header-title">  
             <h1>Nuestro Catálogo</h1>
-            <p>Encuentra los mejores productos a los mejores precios  <button class="tbx but">Volver <i class="bi bi-reply"></i></button></p>
-            
-        </header>
+            <p>Encuentra los mejores productos a los mejores precios  </p>
+        </div>    
+            <a href="#/dashboard" class="btn-back"><i class="bi bi-caret-left-fill"></i> Volver al Inicio</a> 
+    </div>  
 
 
         <main class="catalog-container">

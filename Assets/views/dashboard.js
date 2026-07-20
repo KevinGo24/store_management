@@ -9,9 +9,6 @@ export function views_dashboard() {
             <a href="#/catalogo" class="menu-link"><i class="bi bi-calendar3"></i> Catálogo</a>
             </div>
             <div class="menu-item">
-            <a href="#/existencias" class="menu-link"><i class="bi bi-boxes"></i> Existencias</a>
-            </div>
-            <div class="menu-item">
             <a href="#/reportes" class="menu-link"><i class="bi bi-bar-chart-fill"></i> Reportes</a>
             </div>
             <div class="menu-item">
@@ -20,12 +17,13 @@ export function views_dashboard() {
             <div class="menu-item">
             <a href="#/agregar" class="menu-link"><i class="bi bi-plus-circle"></i> Agregar Productos</a>
             </div>
-            <div class="menu-item"><p class="exit"><i class="bi bi-door-open-fill exit"></i> Cerrar sesión</p></div>
+            <div class="menu-item">
+            <a href="#/" class="menu-link exit"><i class="bi bi-door-open-fill exit"></i> Cerrar sesión</p></div>
             
         </aside>
 
         <!-- Contenido Principal -->
-        <main class="main-content">
+        <main class="main-content1">
             <!-- Fila superior de tarjetas KPI -->
             <section class="kpi-row">
                 <div class="card kpi">
