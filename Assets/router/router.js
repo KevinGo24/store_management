@@ -19,6 +19,7 @@ import { views_soporte } from "/Assets/views/soporte";
 import { views_movimientos } from "/Assets/views/movimiento";
 // importacion de agregar prodcuto
 import { views_agregar_producto } from "/Assets/views/agregar_producto";
+import { views_reportes } from "../views/reportes";
 
 const routes = {
     "/": {
@@ -56,7 +57,7 @@ const routes = {
     },
 
     "#/reportes":{
-        views: views_soporte
+        views: views_reportes
     }
 }
 export default function router() {
