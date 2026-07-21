@@ -7,6 +7,8 @@ export function views_movimientos() {
           <h2>Movimientos de Inventario</h2>
         </div>
         <p>Registra y audita las entradas y salidas de stock en tiempo real.</p>
+        <a href="#/dashboard" class="btn-back"><i class="bi bi-caret-left-fill"></i> Volver al Inicio</a>
+
       </header>
 
       <!-- FORMULARIO DE REGISTRO -->

@@ -1,4 +1,4 @@
-import { views_catalogo } from "/Assets/views/catalogo";
+import { views_catalogo } from "../views/catalogo";
 // import vista catalogo
 import { dashboardController } from "/Assets/Controller/dashboard.controller";
 import { views_dashboard } from "/Assets/views/dashboard";
@@ -40,6 +40,9 @@ const routes = {
         views: views_dashboard,
         controller: dashboardController
     },
+    "#/dashboard": {
+        views: views_dashboard
+    },
     "#/catalogo": {
         views: views_catalogo
     },
@@ -50,6 +53,10 @@ const routes = {
 
     "#/agregar":{
         views: views_agregar_producto
+    },
+
+    "#/reportes":{
+        views: views_soporte
     }
 }
 export default function router() {

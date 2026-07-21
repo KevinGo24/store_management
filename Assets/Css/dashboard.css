@@ -65,7 +65,7 @@ body {
 }
 
 /* 5. Contenido Principal */
-.main-content {
+.main-content1 {
     padding: 30px;
     overflow-y: auto;
     display: flex;
@@ -79,7 +79,7 @@ body {
     border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 10px 10px 10px  black
+    box-shadow: 10px 10px 20px  black
 }
 
 .card h3 {
