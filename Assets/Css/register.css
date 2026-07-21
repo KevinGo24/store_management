@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    border: 2px solid #e9e5e5;
+    border: 2px solid #ffffff71;
     border-radius: 25px;
     padding: 20px;
     width: 100%;
@@ -23,7 +23,7 @@
   font-weight: bold;
   font-style: italic;
   margin-bottom: 6px;
-  text-shadow: 5px 5px 5px rgba(2, 2, 2, 0.712);
+  text-shadow: 5px 5px 5px rgba(22, 22, 22, 0.712);
   padding: 8px;
 }
 
@@ -52,13 +52,8 @@
 }
 
 .form-group label {
-  color: #f8f3f3;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: italic;
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
+  color: #f1eeee;
+  padding-top: 10px;
   gap: 6px;
 }
 

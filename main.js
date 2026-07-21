@@ -1,8 +1,15 @@
-// ---> importsaciones para todo los estilos
-import './Assets/Css/style.css'
+// ----> importsaciones para todo los estilos
+import "./Assets/Css/style.css";
 // ----> importacion del router
-import router from './Assets/router/router'
-// ---> imnportar boostrap icons
+import router from "./Assets/router/router";
+// ----> imnportar boostrap icons
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-document.addEventListener("DOMContentLoaded", router)
+// Carga inicial
+document.addEventListener("DOMContentLoaded", router);
+
+// Navegación con hash (#/catalogo, #/movimientos, etc.)
+window.addEventListener("hashchange", router);
+
+// Navegación programática con pushState (ej. redirección post-login al dashboard)
+window.addEventListener("popstate", router);

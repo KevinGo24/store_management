@@ -1,0 +1,577 @@
+{
+  "info": {
+    "_postman_id": "8bfa5dc7-47b1-4d3f-a39c-29b35b6df8c4",
+    "name": "Store Management - Full API",
+    "description": "Colección de pruebas para la API de Inventario, Ventas, Compras, Dashboard y Reportes del Store Management System",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Reportes",
+      "item": [
+        {
+          "name": "Reporte de Ventas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/reportes/ventas?fecha_inicio=2026-01-01&fecha_fin=2026-12-31",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "reportes",
+                "ventas"
+              ],
+              "query": [
+                {
+                  "key": "fecha_inicio",
+                  "value": "2026-01-01"
+                },
+                {
+                  "key": "fecha_fin",
+                  "value": "2026-12-31"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Reporte de Compras",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/reportes/compras?fecha_inicio=2026-01-01&fecha_fin=2026-12-31",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "reportes",
+                "compras"
+              ],
+              "query": [
+                {
+                  "key": "fecha_inicio",
+                  "value": "2026-01-01"
+                },
+                {
+                  "key": "fecha_fin",
+                  "value": "2026-12-31"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Reporte de Inventario",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/reportes/inventario",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "reportes",
+                "inventario"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Reporte de Productos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/reportes/productos",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "reportes",
+                "productos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Reporte de Proveedores",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/reportes/proveedores",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "reportes",
+                "proveedores"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "item": [
+        {
+          "name": "Obtener Resumen General",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/dashboard/resumen",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "dashboard",
+                "resumen"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Info Inventario",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/dashboard/inventario",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "dashboard",
+                "inventario"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Info Ventas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/dashboard/ventas",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "dashboard",
+                "ventas"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Info Compras",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/dashboard/compras",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "dashboard",
+                "compras"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Alertas del Sistema",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/dashboard/alertas",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "dashboard",
+                "alertas"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Inventario",
+      "item": [
+        {
+          "name": "Obtener Stock Actual",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/inventario/stock",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "inventario",
+                "stock"
+              ],
+              "query": [
+                {
+                  "key": "buscar",
+                  "value": "Auriculares",
+                  "disabled": true
+                },
+                {
+                  "key": "id_categoria",
+                  "value": "1",
+                  "disabled": true
+                },
+                {
+                  "key": "stockAlerta",
+                  "value": "true",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Registrar Movimiento Manual (Entrada)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id_producto\": 1,\n  \"tipo_movimiento\": \"Entrada\",\n  \"origen\": \"Ajuste_Manual\",\n  \"referencia\": \"AJUSTE-2026-001\",\n  \"cantidad\": 10,\n  \"costo_unitario\": 45.00,\n  \"observacion\": \"Ajuste de inventario manual por auditoría física\",\n  \"usuario_responsable\": \"Administrador\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/inventario/movimientos",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "inventario",
+                "movimientos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Historial de Movimientos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/inventario/movimientos",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "inventario",
+                "movimientos"
+              ],
+              "query": [
+                {
+                  "key": "tipo_movimiento",
+                  "value": "Entrada",
+                  "disabled": true
+                },
+                {
+                  "key": "origen",
+                  "value": "Compra",
+                  "disabled": true
+                },
+                {
+                  "key": "id_producto",
+                  "value": "1",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Movimiento por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/inventario/movimientos/1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "inventario",
+                "movimientos",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Dashboard Resumen (Core)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/inventario/dashboard",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "inventario",
+                "dashboard"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Ventas",
+      "item": [
+        {
+          "name": "Registrar Nueva Venta (Completada)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"numero_venta\": \"VNT-2026-0002\",\n  \"nombre_cliente\": \"Cliente Frecuente S.A.\",\n  \"documento_cliente\": \"901.888.777-1\",\n  \"impuesto\": 12.50,\n  \"descuento\": 5.00,\n  \"observaciones\": \"Venta directa en tienda física\",\n  \"detalles\": [\n    {\n      \"id_producto\": 1,\n      \"cantidad\": 2,\n      \"precio_unitario\": 79.99\n    },\n    {\n      \"id_producto\": 2,\n      \"cantidad\": 1,\n      \"precio_unitario\": 45.00\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/ventas",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "ventas"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Listar Ventas con Filtros",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/ventas",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "ventas"
+              ],
+              "query": [
+                {
+                  "key": "estado",
+                  "value": "Completada",
+                  "disabled": true
+                },
+                {
+                  "key": "buscar",
+                  "value": "Cliente Frecuente",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Obtener Detalle de Venta por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/ventas/1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "ventas",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cancelar Venta (Reversión Stock)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"estado\": \"Cancelada\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/ventas/1/cancelar",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "ventas",
+                "1",
+                "cancelar"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Compras",
+      "item": [
+        {
+          "name": "Registrar Nueva Compra (Recibida)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id_proveedor\": 1,\n  \"numero_compra\": \"CMP-2026-0002\",\n  \"impuesto\": 5.00,\n  \"descuento\": 0.00,\n  \"estado\": \"Recibida\",\n  \"observaciones\": \"Abastecimiento urgente por alta demanda\",\n  \"detalles\": [\n    {\n      \"id_producto\": 1,\n      \"cantidad\": 10,\n      \"precio_unitario\": 45.00\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/compras",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "compras"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cambiar Estado de Compra a Recibida",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"estado\": \"Recibida\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/api/compras/1/estado",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "compras",
+                "1",
+                "estado"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:3000",
+      "type": "string"
+    }
+  ]
+}
