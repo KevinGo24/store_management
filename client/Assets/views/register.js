@@ -16,7 +16,7 @@ export function view_register() {
                             Nombre
                         </label>
                         <input type="text" id="name">
-                        <span class="field-error" id ="error-name"></span>
+                        <span class="field-error" id="error-name"></span>
                     </div>
 
                     <div class="form-group">
@@ -25,7 +25,7 @@ export function view_register() {
                             Apellido
                         </label>
                         <input type="text" id="lastname">
-                        <span class="field-error" id ="error-lastname"></span>
+                        <span class="field-error" id="error-lastname"></span>
                     </div>
 
                     <div class="form-group">
@@ -34,7 +34,7 @@ export function view_register() {
                             Correo electrónico
                         </label>
                         <input type="email" id="email">
-                        <span class="field-error" id ="error-email"></span>
+                        <span class="field-error" id="error-email"></span>
                     </div>
 
                     <div class="form-group">
@@ -43,7 +43,7 @@ export function view_register() {
                             Número de teléfono
                         </label>
                         <input type="tel" id="phone">
-                        <span class="field-error" id ="error-phone"></span>
+                        <span class="field-error" id="error-phone"></span>
                     </div>
 
                     <div class="form-group">
@@ -52,7 +52,7 @@ export function view_register() {
                             Contraseña
                         </label>
                         <input type="password" id="password">
-                        <span class="field-error" id ="error-password"></span>
+                        <span class="field-error" id="error-password"></span>
                     </div>
 
                     <div class="form-group">
@@ -61,7 +61,7 @@ export function view_register() {
                             Confirmar contraseña
                         </label>
                         <input type="password" id="confirmPassword">
-                        <span class="field-error" id ="error-confirmPassword"></span>
+                        <span class="field-error" id="error-confirmPassword"></span>
                     </div>
                 </div>
             </section>
