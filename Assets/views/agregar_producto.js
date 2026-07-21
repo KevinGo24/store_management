@@ -21,17 +21,7 @@ export function views_agregar_producto() {
                             <div class="form-text">Nombre descriptivo del producto</div>
                         </div>
                     </div>
-                          <div class="row g-3">
-                    <div class="col-12">
-                        <div class="form-group">
-                            <label for="nombre" class="form-label">
-                                <i class="bi bi-tag"></i> marca del Producto
-                            </label>
-                            <input type="text" class="form-control form-control-lg" id="nombre"
-                                   placeholder="Ej. Smartwatch Serie 5" required>
-                            <div class="form-text">Nombre descriptivo del producto</div>
-                        </div>
-                    </div>
+        
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="sku" class="form-label">
