@@ -62,12 +62,10 @@ export const InventarioModel = {
                 p.nombre AS nombre_producto,
                 p.codigo AS codigo_producto,
                 p.unidad_medida,
-                COALESCE(c.nombre, 'Sin categoría') AS nombre_categoria,
-                m.fecha_movimiento AS fecha_creacion,
-                m.tipo_movimiento AS tipo
+                c.nombre AS nombre_categoria
             FROM Movimientos_Inventario m
             INNER JOIN Productos p ON m.id_producto = p.id_producto
-            LEFT JOIN Categorias c ON p.id_categoria = c.id_categoria
+            INNER JOIN Categorias c ON p.id_categoria = c.id_categoria
             WHERE 1=1
         `;
 

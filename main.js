@@ -1,8 +1,8 @@
-// ----> importaciones para todos los estilos
+// ----> importsaciones para todo los estilos
 import "./Assets/Css/style.css";
 // ----> importación del router
 import router from "./Assets/router/router";
-// ----> importar bootstrap icons
+// ----> imnportar boostrap icons
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 // Carga inicial

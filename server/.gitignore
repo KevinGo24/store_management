@@ -1,5 +1,2 @@
-# Archivos de entorno
 .env
-
-# Dependencias
 node_modules/
