@@ -1,6 +1,5 @@
 # 🚀 Gestor Store - Proyecto Integrador
 
-<<<<<<< HEAD
 <p align="center">
   <img width="1254" height="1254" alt="ChatGPT Image 17 jul 2026, 08_14_21 p m" src="https://github.com/user-attachments/assets/056d84d7-2b69-46c5-99ae-6fe9486492d9" />
 
@@ -10,10 +9,6 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 
 ---
 
-=======
-Gestor Store es una aplicación web de inventarios diseñada para facilitar la administración de productos y la gestión de comercio. El objetivo es ofrecer una solución moderna que permita a los usuarios mantener un inventario actualizado sin procesos manuales, con una interfaz intuitiva y acceso desde el navegador.
-
->>>>>>> 41704929847ef1c261530658b8d96d054cc73500
 ## ✨ Características principales
 
 - 📦 Gestión de inventario de productos
@@ -22,21 +17,14 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 - 🌐 Navegación con rutas SPA (enrutador propio)
 - 🎨 Uso de iconos con Bootstrap Icons
 
-<<<<<<< HEAD
 ---
 
-=======
->>>>>>> 41704929847ef1c261530658b8d96d054cc73500
-## 🧰 Tecnologías utilizadas
 
 - HTML
-- CSS
-- JavaScript
 - Vite
 - Bootstrap Icons
 - PostgreSQL (para la base de datos)
 
-<<<<<<< HEAD
 ---
 
 ## 📸 Capturas de pantalla
@@ -86,8 +74,6 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 
 ---
 
-=======
->>>>>>> 41704929847ef1c261530658b8d96d054cc73500
 ## 📁 Estructura del proyecto
 
 - `index.html` - Punto de entrada de la aplicación
@@ -95,34 +81,20 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 - `Assets/` - Archivos de estilos, componentes, vistas y controladores
 - `public/` - Recursos estáticos como el favicon
 
-<<<<<<< HEAD
 ---
 
 ## 👤 Usuarios de prueba
 
 ### Administrador
-=======
-## 👤 Usuarios de prueba
-
-### Administrador
-
->>>>>>> 41704929847ef1c261530658b8d96d054cc73500
 - Correo: `admin@gmail.com`
 - Contraseña: `admin123`
 
 ### Cliente
-<<<<<<< HEAD
 - Correo: `usuario@gmail.com`
 - Contraseña: `cliente123`
 
 ---
 
-=======
-
-- Correo: `usuario@gmail.com`
-- Contraseña: `cliente123`
-
->>>>>>> 41704929847ef1c261530658b8d96d054cc73500
 ## ▶️ Instalación y ejecución
 
 1. Instala dependencias:
@@ -137,7 +109,6 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 
 > Nota: `npm init -y` solo es necesario si el proyecto aún no tiene `package.json`.
 
-<<<<<<< HEAD
 ---
 
 ## 👥 Integrantes del equipo
@@ -164,16 +135,11 @@ Las contribuciones son bienvenidas. Si deseas colaborar con este proyecto:
 
 Para reportar errores o sugerir mejoras, por favor abre un *issue* en el repositorio.
 
-=======
-## 🤝 Contribuciones
-
->>>>>>> 41704929847ef1c261530658b8d96d054cc73500
 Si deseas aportar mejoras, crea una rama nueva y envía un pull request con tus cambios. Asegúrate de documentar bien cada nueva funcionalidad.
 
 ## 📬 Contacto
 
 Cualquier duda sobre el proyecto puede ser consultada con el equipo de desarrollo o registrada en el repositorio.
-<<<<<<< HEAD
 
 # Árbol del proyecto (sin node_modules)
 
@@ -277,5 +243,3 @@ store_management/
 ```
 
 Nota: node_modules/ no está incluido.
-=======
->>>>>>> 41704929847ef1c261530658b8d96d054cc73500
