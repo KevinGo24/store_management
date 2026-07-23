@@ -1,26 +1,17 @@
 export function registerController() {
   const form = document.getElementById('registerForm');
-<<<<<<< HEAD
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-=======
   
   if (!form) return;
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     
->>>>>>> backend
     const name = document.getElementById('name').value.trim();
     const lastname = document.getElementById('lastname').value.trim();
     const email = document.getElementById('email').value.trim();
     const phone = document.getElementById('phone').value.trim();
     const password = document.getElementById('password').value;
     const confirmPassword = document.getElementById('confirmPassword').value; 
-<<<<<<< HEAD
-  })
-}
-=======
 
     // 1. Validación de campos vacíos en el Frontend 
     if (!name || !lastname || !email || !password || !confirmPassword) {
@@ -65,4 +56,3 @@ export function registerController() {
     }
   });
 }
->>>>>>> backend

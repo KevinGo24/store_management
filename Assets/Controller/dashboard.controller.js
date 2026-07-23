@@ -5,11 +5,6 @@ export function dashboardController() {
         const inventoryValueEl = document.getElementById('inventoryValue');
         const lowStockEl = document.getElementById('lowStock');
         const movementsTodayEl = document.getElementById('movementsToday');
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> backend
         const tableAlertsBody = document.getElementById('tableAlertsBody');
         const reportsListContainer = document.getElementById('reportsListContainer');
 
@@ -53,11 +48,6 @@ export function dashboardController() {
                 // 5. Renderizado de la Tabla de Alertas de Reabastecimiento
                 if (tableAlertsBody) {
                     tableAlertsBody.innerHTML = ''; // Limpiar filas estáticas placeholders
-<<<<<<< HEAD
-                    
-=======
-
->>>>>>> backend
                     tablas.alertasReabastecimiento.forEach(item => {
                         const row = document.createElement('tr');
                         row.innerHTML = `
@@ -88,11 +78,6 @@ export function dashboardController() {
 
         } catch (error) {
             console.error('Error al inicializar el dashboard:', error);
-<<<<<<< HEAD
-            // Opcional: Aquí puedes invocar una función para renderizar alertas visuales de error en el DOM
-=======
-
->>>>>>> backend
         }
     });
 }

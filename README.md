@@ -19,6 +19,7 @@ Gestor Store es una aplicación web de inventarios diseñada para facilitar la a
 
 ---
 
+## 🧰 Tecnologías utilizadas
 
 - HTML
 - Vite

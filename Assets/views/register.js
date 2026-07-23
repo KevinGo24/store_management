@@ -3,10 +3,7 @@ export function view_register() {
     <div class="register-container">
     
         <form id="registerForm" novalidate>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> backend
+
         <section>
             <h2 class="register-header h2">Crear cuenta</h2>
             <p class="parrafo">Completar los datos para registrarse</p>
@@ -70,9 +67,6 @@ export function view_register() {
                     <i class="bi bi-person-plus-fill"></i>
                     Registrarse
                 </button>
-<<<<<<< HEAD
-=======
-=======
                 <h2 class="register-header h2">Crear cuenta</h2>
                 <p class="parrafo">Completar los datos para registrarse</p>
                         <section class="capa_2">
@@ -122,17 +116,6 @@ export function view_register() {
             </form>         
             <div id="errorMessage" class="error-message" style="display: none; color: #ef4444; margin-bottom: 15px; font-size: 14px; text-align: center;"></div>
 
->>>>>>> 41704929847ef1c261530658b8d96d054cc73500
->>>>>>> backend
-
-                <div class="register-footer">
-                    <i class="bi bi-person-check-fill"></i>
-                    ¿Ya tienes una cuenta?
-                    <a href="/login">
-                        <i class="bi bi-box-arrow-in-right"></i>
-                        Inicia sesión
-                    </a>
-                </div>
 
     </div>
     `;
