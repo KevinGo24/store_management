@@ -67,8 +67,7 @@ export function view_register() {
                     <i class="bi bi-person-plus-fill"></i>
                     Registrarse
                 </button>
-            
-            <div id="errorMessage" class="error-message" style="display: none; color: #ef4444; margin-bottom: 15px; font-size: 14px; text-align: center;"></div>
+       
 
 
     </div>
