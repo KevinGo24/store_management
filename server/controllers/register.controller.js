@@ -3,8 +3,16 @@ import pool from '../db.js';
 
 export const registrarCliente = async (req, res) => {
   try {
+<<<<<<< HEAD
     // Express recibe los datos a través de req.body
     const { nombre_completo, correo, contrasena, telefono } = req.body;
+=======
+    // Extraemos nombre, apellido, correo, etc. del formulario web
+    const { nombre, apellido, correo, contrasena, telefono } = req.body;
+    
+    // Unimos nombre y apellido para que coincida con la columna nombre_completo de la BD
+    const nombre_completo = `${nombre} ${apellido}`.trim();
+>>>>>>> backend
     
     // Encriptar la contraseña
     const saltRounds = 10;
@@ -22,7 +30,11 @@ export const registrarCliente = async (req, res) => {
 
   } catch (error) {
     console.error("Error al registrar cliente:", error);
+<<<<<<< HEAD
     if (error.code === '23505') { // Código de error de PostgreSQL para "Dato duplicado"
+=======
+    if (error.code === '23505') {
+>>>>>>> backend
         return res.status(400).json({ mensaje: "El correo electrónico ya está registrado." });
     }
     res.status(500).json({ mensaje: "Error interno del servidor" });

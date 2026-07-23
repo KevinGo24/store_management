@@ -39,6 +39,7 @@
    Caja Interna del Formulario (Borde Blanco)
    ========================================== */
 
+<<<<<<< HEAD
 
 .form-group {
   flex: 1;
@@ -49,6 +50,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+=======
+/* Grupos de Control (Labels e Inputs) */
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+>>>>>>> backend
 }
 
 .form-group label {
@@ -60,9 +69,13 @@
 .form-group input {
   width: 70%;
   padding: 10px 15px;
+<<<<<<< HEAD
   border: none;
   border-radius: 15px;
   font-size: 15px;
+=======
+  border-radius: 15px;
+>>>>>>> backend
   background-color: #ffffff;
   color: #161515;
   outline: none;
@@ -73,10 +86,13 @@
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 /* #name {
     width: auto;
 }
 
+=======
+>>>>>>> backend
 /* Mensaje de Error Interno */
 .error-message {
   color: #ff4d4d;
@@ -178,5 +194,9 @@
     width: 250px;
     max-width: 100%;
     object-fit: contain;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> backend

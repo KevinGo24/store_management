@@ -1,5 +1,5 @@
 export function views_soporte() {
-    return`
+    return `
    <div class="soporte-container">
 
     <div class="logo-placeholder">
@@ -7,8 +7,7 @@ export function views_soporte() {
     </div>
 
     <h1 class="titulo-principal">Nuestros Servicios</h1>
-  
-
+ 
   <!-- Sección de Tarjetas de Servicios -->
   <section class="servicios-grid">
     <div class="tarjeta-servicio">
@@ -76,7 +75,7 @@ export function views_soporte() {
   </section>
   <form class="form" action="">
             <label class="label_correo">
-                <spam>Correo electronico</spam>
+                <span>Correo electronico</span>
                 <i class="bi bi-envelope-at-fill"></i>
             </label>
             <input type="email" name="" id="" class="tbx">
@@ -88,5 +87,5 @@ export function views_soporte() {
             <button class="buttom_form">Enviar formulario</button>
       </form>
 </div>   
-    `  
+    `;
 }

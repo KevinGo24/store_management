@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -253,4 +254,75 @@
   box-sizing: border-box; 
   max-width: 100%;      
   resize: vertical;     
+=======
+/* ==========================================
+   ESTILOS GENERALES (Móviles primero / Base)
+   ========================================== */
+.soporte {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid #d3b96e 3px;
+    border-radius: 20px;
+    padding: 20px;
+    width: auto;
+    margin: 20px 10px;
+    box-sizing: border-box;
+}
+
+.soporte_logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo_soporte {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    animation: logo infinite 5s;
+    transition: transform 0.3s ease;
+}
+
+.logo_soporte:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.tel_soporte {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Animación optimizada */
+@keyframes logo {
+    0%, 100% {
+        box-shadow: #d3b96e 0px 0px 15px 2px;
+    }
+    50% {
+        box-shadow: white 0px 0px 20px 4px;
+    }
+}
+
+/* ==========================================
+   PANTALLAS MEDIANAS Y GRANDES (Tabletas / PC)
+   ========================================== */
+@media (min-width: 768px) {
+    .soporte {
+        margin: 20px;
+    }
+
+    .logo_soporte {
+        max-width: 400px;
+    }
+
+    .tel_soporte {
+        text-align: left;
+    }
+>>>>>>> backend
 }

@@ -1,4 +1,5 @@
 /*importaciones*/
+<<<<<<< HEAD
 @import url('https://googleapis.com');
 @import url('/Assets/Css/login.css');
 @import url('/Assets/Css/register.css');
@@ -8,6 +9,16 @@
 @import url('/Assets/Css/catalogo.css');
 @import url('/Assets/Css/formularios.css');
 @import url('/Assets/Css/reportes.css');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('./login.css');
+@import url('./register.css');
+@import url('./soporte.css');
+@import url('./dashboard.css');
+@import url('./movimiento.css');
+@import url('./catalogo.css');
+@import url('./formularios.css');
+>>>>>>> backend
 /*---------------------------*/
 * {
     box-sizing: border-box;

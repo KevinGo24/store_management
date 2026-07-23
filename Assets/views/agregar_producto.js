@@ -22,6 +22,7 @@ export function views_agregar_producto() {
                         </div>
                     </div>
         
+
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="sku" class="form-label">
@@ -32,6 +33,19 @@ export function views_agregar_producto() {
                             <div class="form-text">Código único de identificación</div>
                         </div>
                     </div>
+
+                    <!-- CAMPO: MARCA -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="marca" class="form-label">
+                                <i class="bi bi-award"></i> Marca
+                            </label>
+                            <input type="text" class="form-control form-control-lg" id="marca" 
+                                   placeholder="Ej. Samsung, Apple, etc.">
+                            <div class="form-text">Marca fabricante del producto</div>
+                        </div>
+                    </div>
+
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="cantidad" class="form-label">
@@ -54,6 +68,19 @@ export function views_agregar_producto() {
                         </div>
                     </div>
 
+                    <!-- CAMPO CATEGORÍA (Ubicado simétricamente antes de la descripción) -->
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="categoria" class="form-label">
+                                <i class="bi bi-folder-fill"></i> Categoría
+                            </label>
+                            <select class="form-control form-control-lg" id="categoria" required>
+                                <option value="" disabled selected>Cargando categorías...</option>
+                            </select>
+                            <div class="form-text">Selecciona la categoría del producto</div>
+                        </div>
+                    </div>
+
                     <div class="col-12">
                         <div class="form-group">
                             <label for="descripcion" class="form-label">
@@ -61,6 +88,7 @@ export function views_agregar_producto() {
                             </label>
                             <textarea class="form-control form-control-lg" id="descripcion" 
                                       rows="3" placeholder="Describe las características del producto..."></textarea>
+                                    rows="3" placeholder="Describe las características del producto..."></textarea>
                         </div>
                     </div>
                 </div>
@@ -70,11 +98,13 @@ export function views_agregar_producto() {
                         <i class="bi bi-check-circle"></i> Guardar Producto
                     </button>
                     <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="offcanvas">
+                    <button type="button" class="btn btn-secondary btn-lg" id="btnCancelar">
                         <i class="bi bi-x-circle"></i> Cancelar
                     </button>
                     <button type="button" class="btn btn-danger btn-lg" onclick="window.location.hash = '/gestor'">
                         <i class="bi bi-door-open"></i> Salir
                     </button>
+                </div>
                 </div>
             </form>
         </div>

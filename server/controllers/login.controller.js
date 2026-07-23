@@ -28,7 +28,12 @@ export const loginCliente = async (req, res) => {
       cliente: {
         id_cliente: cliente.id_cliente,
         nombre_completo: cliente.nombre_completo,
+<<<<<<< HEAD
         correo: cliente.correo
+=======
+        correo: cliente.correo,
+        rol: cliente.rol || 'cliente'
+>>>>>>> backend
       }
     });
 

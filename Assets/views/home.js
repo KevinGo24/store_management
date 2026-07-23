@@ -1,5 +1,5 @@
 export function views_homne() {
-    return  `    
+    return `    
     <div class="home">
     <header>
         <div class="logo">
@@ -35,7 +35,6 @@ export function views_homne() {
                 Nuestra plataforma está diseñada para ser rápida, intuitiva y segura, 
                 ayudándote a optimizar procesos, reducir pérdidas y tomar mejores decisiones 
                 para hacer crecer tu empresa con mayor eficiencia y confianza.
-
                 </p>
             </div>
         </section>
@@ -44,16 +43,19 @@ export function views_homne() {
                 <figure class="info_photo">
                     <img src="/Assets/picture/2.jpg" alt="" class="photo_info">
                 </figure>
+                <p class="card-text">Organiza tu inventario de forma sencilla y visual. Controla el stock con precisión y evita quiebres.</p>
             </div>
             <div class="carts">
                 <figure class="info_photo" >
                     <img src="/Assets/picture/3.jpg" alt="" class="photo_info">
                 </figure>
+                <p class="card-text">Consulta datos en tiempo real y toma decisiones rápidas con información clara y confiable.</p>
             </div>
             <div class="carts">
                 <figure class="info_photo">
                     <img src="/Assets/picture/4.jpg" alt="" class="photo_info">
                 </figure>
+                <p class="card-text">Aumenta la eficiencia de tu negocio con un sistema diseñado para crecer contigo.</p>
             </div>
         </section>
         <footer class="footer">
@@ -74,27 +76,13 @@ export function views_homne() {
 
                 <div class="footer-social">
                     <h4>Síguenos</h4>
-
-                    <a href="#">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bi bi-twitter-x"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="bi bi-github"></i>
-                    </a>
-
+                    <div class="footer-social-links">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    </div>
                 </div>
 
             </div>
@@ -104,6 +92,5 @@ export function views_homne() {
             </div>
         </footer>
     </div>
-    
-    `
+    `;
 }
